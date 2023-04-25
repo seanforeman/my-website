@@ -18,6 +18,9 @@
   --background-color-my-cards: #333;
   --overlay-background-color: #eee;
   --highlight-background-color: #aaa;
+  --highlight-background-color-red: #f00;
+  --highlight-background-color-white: #fff;
+  --highlight-background-color-blue: #00f;
   --text-color: #111;
   --highlight-background-color: #fff;
   --text-color: #000;
@@ -243,4 +246,16 @@ main .section {
 /* section metadata */
 main .section.highlight {
   background-color: var(--highlight-background-color);
+}
+/* section metadata */
+main .section.red {
+  background-color: var(--highlight-background-color-red);
+}
+/* section metadata */
+main .section.white {
+  background-color: var(--highlight-background-color-white);
+}
+/* section metadata */
+main .section.blue {
+  background-color: var(--highlight-background-color-blue);
 }
