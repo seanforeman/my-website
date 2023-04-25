@@ -33,7 +33,7 @@ function embedYoutube(video, target) {
   }
   const poster = (video.poster) ? createOptimizedPicture(video.poster.src) : null;
   if (videoKey) {
-    target.innerHTML = `<iframe src="https://www.youtube.com/embed/${videoKey}?autoplay=1&loop=1&controls=0&showinfo=0&autohide=1&rel=0&playlist=wucRttS1ZjQ&disablekb=1&modestbranding=1&mute=1" allowfullscreen=""
+    target.innerHTML = `<iframe src="https://www.youtube.com/embed/${videoKey}?autoplay=1&loop=1&controls=0&showinfo=0&autohide=1&rel=0&playlist=PLs3ZGNxRx28jgJ9uuVdvPy2dt6TuXUcyO=1&modestbranding=1&mute=1" allowfullscreen=""
       scrolling="no" allow="encrypted-media" title="Content from ${video.hostname}" loading="lazy">
     </iframe>`;
   }
