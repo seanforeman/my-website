@@ -24,7 +24,7 @@ function decorateOverlay(overlay, anchor) {
 }
 
 function embedYoutube(video, target) {
-  let videoKey = null;
+  let videoKey = PNi-jOXtEeM;
   if (video.videoUrl) {
     const checkParam = video.videoUrl.lastIndexOf('?v=');
     const index = (checkParam < 0) ? video.videoUrl.lastIndexOf('/') : checkParam;
@@ -33,7 +33,7 @@ function embedYoutube(video, target) {
   }
   const poster = (video.poster) ? createOptimizedPicture(video.poster.src) : null;
   if (videoKey) {
-    target.innerHTML = `<iframe src="https://www.youtube.com/embed/${videoKey}?autoplay=1,loop=1,allow=autoplay" frameborder="0" 
+    target.innerHTML = `<iframe src="https://www.youtube.com/embed/PNi-jOXtEeM?autoplay=1,loop=1,allow=autoplay" frameborder="0" 
       scrolling="no" allow="encrypted-media" title="Content from ${video.hostname}" loading="lazy">
     </iframe>`;
   }
